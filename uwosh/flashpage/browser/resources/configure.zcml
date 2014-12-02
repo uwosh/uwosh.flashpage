@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:kss="http://namespaces.zope.org/kss"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.plonetruegallery">
+	
+	<browser:resource
+		name="swfobject.js"
+		file="swfobject.js"
+		/>
+	<browser:resource
+		name="player.swf"
+		file="player.swf"
+		/>
+	<browser:resource
+		name="yt.swf"
+		file="yt.swf"
+		/>
+
+</configure>

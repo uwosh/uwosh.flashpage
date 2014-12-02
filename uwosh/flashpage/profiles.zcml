@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="uwosh.flashpage">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="uwosh.flashpage"
+      directory="profiles/default"
+      description='Add a content type that allows you to embed flash video within a page.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

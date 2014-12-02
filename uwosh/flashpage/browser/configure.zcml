@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:kss="http://namespaces.zope.org/kss"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.plonetruegallery">
+
+	<browser:page
+		for="uwosh.flashpage.interfaces.IFlashPage"
+       	name="flashpage_view"
+		class=".flashpage.View"
+        permission="zope2.View"
+		/>
+	<browser:page
+		for="*"
+       	name="flashpage_howto"
+		template="howto.pt"
+        permission="zope2.View"
+		/>
+
+	<include package=".resources" />
+</configure>
